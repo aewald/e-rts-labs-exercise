@@ -3,13 +3,12 @@ import { connect } from 'react-redux';
 
 import * as actions from '../redux/searches/searches.actions';
 
-const SearchInput = ({ handleGetNews, saveSearchQuery, setCurrentQuery }) => {
+const SearchInput = ({ saveSearchQuery, setCurrentQuery }) => {
   const { register, handleSubmit } = useForm();
 
   const onSubmit = ({ query }) => {
     setCurrentQuery(query);
     saveSearchQuery(query);
-    handleGetNews(query);
   };
 
   return (
