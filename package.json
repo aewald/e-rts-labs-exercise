@@ -1,0 +1,39 @@
+{
+  "name": "e-rts-labs-exercise",
+  "version": "1.0.0",
+  "private": true,
+  "description": "E-RTS Labs React Exercise",
+  "main": "index.js",
+  "repository": "https://github.com/aewald/e-rts-labs-exercise",
+  "author": "Andy Ewald",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-hook-form": "^6.15.1",
+    "react-redux": "^7.2.2",
+    "react-scripts": "^4.0.2",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
